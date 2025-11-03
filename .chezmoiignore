@@ -1,0 +1,16 @@
+# Documentation files
+README.md
+CLAUDE.md
+LICENSE-MIT.txt
+
+# Directories that shouldn't be deployed to home
+bin/
+helpers/
+
+# Chezmoi configuration
+.chezmoi.toml.tmpl
+.chezmoiignore
+
+# Git files
+.git/
+.gitignore
