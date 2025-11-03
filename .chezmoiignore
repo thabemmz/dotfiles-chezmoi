@@ -1,6 +1,7 @@
 # Documentation files
 README.md
 CLAUDE.md
+MANUAL-APPS.md
 LICENSE-MIT.txt
 
 # Directories that shouldn't be deployed to home

@@ -68,7 +68,7 @@ Installs Homebrew packages before dotfiles are applied:
 - **Configuration**: chezmoi, pkl
 - **Image processing**: imagemagick@6
 - **Networking**: dnsmasq
-- **GUI apps**: Warp, AnythingLLM, AppFlowy, Altair GraphQL Client
+- **GUI apps**: 1Password, Rectangle, Obsidian, Raindrop.io, Firefox, Chrome, Docker, OrbStack, Bruno, Warp, AnythingLLM, AppFlowy, Altair GraphQL Client
 
 #### `run_once_after_install-npm-packages.sh.tmpl`
 Installs global npm packages after dotfiles are applied:
@@ -83,6 +83,7 @@ Configures macOS system preferences and defaults (runs when the script changes)
 
 - **`bin/`** - Utility scripts (httpcompression)
 - **`helpers/`** - Helper scripts for system configuration
+- **`MANUAL-APPS.md`** - List of applications that need manual installation (not available via Homebrew Cask)
 
 ## Daily Usage
 
